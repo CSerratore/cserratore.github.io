@@ -97,13 +97,7 @@ Probably the best-known example of Event Sourcing (to developers, at least) is [
 [Event Sourcing: What it is and why it's awesome](https://dev.to/barryosull/event-sourcing-what-it-is-and-why-its-awesome)
 
 ## Clean Architecture
-I'm using the term here in reference to a collection of similar architecture patterns including Screaming Architecture coined by Robert C. Martin (Uncle Bob), Hexogonal Architecture (otherwise known as Ports and Adapters) proposed by Alistair Cockburn in 2005, and the Onion Architecture penned by Jeffrey Palermo in 2008. The common premise of these patterns is that the primary business intent that the architecture supports - the business domain models and use cases - form an independent core to which all dependencies point inward. Supporting infrastructure services, frameworks, and libraries to support concerns such as user interfaces, network and persistence integration are external, with layering from abstraction to implementation directed from the inside out. Inversion of Control using Dependency injection is a common design pattern to enforce dependencies between abstract interfaces, rather than on concrete implementations. You can see how these architecture patterns support Domain Driven Design.
+I'm using the term here in reference to a collection of similar architecture patterns described by Robert C. Martin (Uncle Bob). The common premise of these patterns is that the primary business intent that the architecture supports - the business domain models and use cases - form an independent core to which all dependencies point inward. Supporting infrastructure services, frameworks, and libraries to support concerns such as user interfaces, network and persistence integration are external, with layering from abstraction to implementation directed from the inside out. Inversion of Control using Dependency injection is a common design pattern to enforce dependencies between abstract interfaces, rather than on concrete implementations. You can see how these architecture patterns support Domain Driven Design.
 
 ### References
-[Screaming Architecture](https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html)
-
-[Hexogonal Architecture](https://web.archive.org/web/20060711221010/http://alistair.cockburn.us:80/index.php/Hexagonal_architecture)
-
-[Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
-
-[A Quick Introduction to Clean Architecture](https://medium.freecodecamp.org/a-quick-introduction-to-clean-architecture-990c014448d2)
+[Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
