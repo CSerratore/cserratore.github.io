@@ -1,6 +1,6 @@
 ---
 title: "Checklist Driven Development"
-image: /assets/images/checklist-1537021863WVs.jpg
+image: /assets/images/posts/checklist-1537021863WVs.jpg
 excerpt_separator: "<!--more-->"
 categories:
   - Development

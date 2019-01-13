@@ -1,7 +1,7 @@
 ---
 title: "Cloud-Scale Architecture Patterns For The
 Post-Moore’s Law Age"
-image: /assets/images/end-of-moores-law.jpg
+image: /assets/images/posts/end-of-moores-law.jpg
 excerpt_separator: "<!--more-->"
 categories:
   - Architecture
