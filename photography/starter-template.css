@@ -1,0 +1,17 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.thumbnail-description {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.thumbnail-label {
+    color: #b3000a;
+    font-weight: bold;
+    font-size: 1.0em;
+}
