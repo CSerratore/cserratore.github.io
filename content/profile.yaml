@@ -1,0 +1,33 @@
+- profile: Hello
+  initials: CS
+  name: Cory Serratore
+  email: Y29yeS5zZXJyYXRvcmVAZ21haWwuY29t
+  profession: Software Architect and Developer
+  image: images/profile.jpg
+  location: Burlington, CA
+  relocation: false
+  company: AudienceView
+  for_hire: false
+  focus: Gatsby Web Sites and App Shells
+  focus_url: https://gatsbyjs.org
+  about: |
+    I'm a software architect and developer with a passion for building reactive systems.
+
+  skills:
+    - Reactive Systems
+    - Clean Architecture
+    - Domain Driven Design
+    - Principles
+    - Patterns
+    - Best Practices
+  tools:
+    - Archimate/C4/UML
+    - Java/Spring Boot
+    - Javascript/NodeJS
+    - Git/Github
+    - SQL
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
