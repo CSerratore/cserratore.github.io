@@ -11,21 +11,18 @@
   focus: Gatsby Web Sites and App Shells
   focus_url: https://gatsbyjs.org
   about: |
-    I'm a software architect and developer with a passion for building reactive systems.
+    I'm a software architect, coach, mentor, leader and developer with a passion for building maintainable reactive systems.
 
   skills:
     - Reactive Systems
     - Clean Architecture
     - Domain Driven Design
-    - Principles
-    - Patterns
-    - Best Practices
+    - Coaching, Mentoring, Learning
   tools:
-    - Archimate/C4/UML
-    - Java/Spring Boot
-    - Javascript/NodeJS
+    - C4/Miro/LucidChart
+    - Java/Spring Boot, Javascript/NodeJS, C++, SQL
     - Git/Github
-    - SQL
+    - Linux, Windows
   budget:
     currency: $
     min: 5
