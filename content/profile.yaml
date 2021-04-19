@@ -21,8 +21,6 @@
   tools:
     - C4/Miro/LucidChart
     - Java/Spring Boot, Javascript/NodeJS, C++, SQL
-    - Git/Github
-    - Linux, Windows
   budget:
     currency: $
     min: 5
