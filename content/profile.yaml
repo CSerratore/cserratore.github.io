@@ -7,20 +7,24 @@
   relocation: false
   company: AudienceView
   for_hire: false
-  focus: Fast Flow Microservice Platform Development
+  focus: Reactive Microservice SaaS Platforms
   focus_url: https://www.reactivemanifesto.org/
   about: I'm a software architect, coach, mentor, leader and developer with a passion for building scalable and responsive systems.
 
   skills:
-    - Complex problem & solution space analysis & design
-    - Domain & Event Driven Design
-    - Reactive Systems Design
+    - Problem Space Analysis
+    - Solution Space Design
+    - Domain Driven Design
     - Consulting
     - Coaching
     - Mentoring
   tools:
-    - Architecture and design patterns and practices
-    - Java/Spring Boot, Javascript/NodeJS, C++, Kafka, Akka, SQL
+    - Wardley Maps
+    - Event Storming
+    - Architecture patterns, practices, and technologies
+    - Java, Javascript, C++
+    - Spring Boot, Node.js, Kafka, Akka, SQL
+    - AWS, Microsoft Azure
     - C4, Miro, LucidChart
   budget:
     currency: $
