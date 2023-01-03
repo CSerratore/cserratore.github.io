@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 1em 1em 1em 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  margin-top: 2em;
+  background-color: #000;
+  text-align: center;
+  color: #EFEFEF;
+}
+
+.page h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: .25em;
+ }
+
+.page h2, h3, h4 {
+  font-family: 'Georama', sans-serif;
+}
+
+.page h2 {
+  font-size: 2.5em;
+  font-weight: 900;
+}

@@ -1,0 +1,28 @@
+.section-header {
+    width: 100%;
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    background-color: #5379a0;
+    color: #EFEFEF;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  line-height: 1.2em;
+  margin-bottom: 8px;
+}
+
+p, a {
+  font-family: 'Raleway', sans-serif;
+  font-size: .8em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
