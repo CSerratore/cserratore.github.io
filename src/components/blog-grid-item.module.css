@@ -1,12 +1,13 @@
 .blog-grid-item {
+    flex: 1 0 calc(33% - 10px);
+    margin: 10px 0 0 2%;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;
     border: 0px solid #fff;
     text-align: left;
-    padding: 10px;
-    width: 380px;
-    height: 537x;
+    width: calc(100% * (1/4) - 10px 0px);
+    height: 537px;
   }
 
   .blog-grid-text {

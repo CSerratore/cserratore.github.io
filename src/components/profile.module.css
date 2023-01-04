@@ -2,6 +2,7 @@
     width: 100%;
     padding: 1em 1em 1em 1em;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
@@ -9,29 +10,17 @@
     color: #252525;
 }
 
-.profile {
-  width:600px;
-  padding: 1em 1em 1em 1em;
-  display: flex;
-  justify-content: center;
-  align-items: left;
-  flex-direction: column;
-}
-
 .profile-image {
-  width: 325px;
-  padding: 1em 1em 1em 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  flex-direction: column;
+  width: 300px;
   padding-top: 1em;
   padding-bottom: 1em;
-
-
+  padding-right: 1vw;
   background-color: #EFEFEF;
   color: #252525;
+}
+
+.profile {
+  padding-left: 1vw;
 }
 
 .profile-image img {
@@ -73,4 +62,27 @@ p, a {
   font-weight: 400;
   line-height: 1.5em;
   margin-bottom: 1em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .profile {
+    width: 300px;
+  }
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .profile {
+    width: 600px;
+  }
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .profile {
+    width: 800px;
+  }
 }

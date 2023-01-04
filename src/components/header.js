@@ -7,7 +7,7 @@ const Header = ({ children }) => {
 
       <header>
         <h1>CORY SERRATORE</h1>
-        <h2>Work Smarter➞Level Up➞Enjoy Freedom</h2>
+        <h2>Work Smarter ➞ Level Up ➞ Enjoy Freedom</h2>
       </header>
 
     </div>

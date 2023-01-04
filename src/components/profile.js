@@ -15,8 +15,7 @@ const Profile = ({ children }) => {
       <div className={ profileImage }>
         <StaticImage 
           src="../content/images/profile.jpg"
-          width={300}
-          height={300}/>
+          width="300"/>
       </div>
       <div className={ profile }>
         <h3>Hi, I'm Cory.</h3>
