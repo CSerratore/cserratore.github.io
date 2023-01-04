@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && cp CNAME public && gh-pages -d public -b master"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.2.1",
