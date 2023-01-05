@@ -2,8 +2,8 @@ import * as React from 'react'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { 
   blogGridItem,
-  blogGridText,
-  excerpt,
+  articleTitle,
+  articleExcerpt,
   readMore,
   metaData,
  } from './blog-grid-item.module.css'
@@ -15,12 +15,13 @@ const BlogGridItem = ({ articleMetadata, children }) => {
 
     <div className={ blogGridItem }>
       <GatsbyImage
-        image={ image }/>
-      <div className={ blogGridText }>
+        image={ image }
+        layout="fixed"/>
+      <div className={ articleTitle }>
         <h4>
           { articleMetadata.title }
         </h4>
-        <p className={ excerpt }>
+        <p className={ articleExcerpt }>
           { articleMetadata.summary }
         </p>
         <a className={ readMore } href={ articleMetadata.articleURL }>Read Full Post</a>

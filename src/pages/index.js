@@ -20,7 +20,7 @@ const IndexPage = ({ data }) => {
         <h1>ARTICLES</h1>
         <h2>Feed Your Curiosity</h2>
         <p>
-          Explorations of personal and professional software development patterns, practices and platforms.
+          Explorations of software, personal and professional development.
         </p>
       </Section>
       <BlogGrid>

@@ -1,21 +1,18 @@
 .container {
   width: 100%;
-  padding: 1em 1em 1em 1em;
+  padding: 5px;
   display: flex;
   justify-content: center;
-  align-items: center;
-
   flex-direction: column;
-  padding-top: 1em;
-  padding-bottom: 1em;
-
   background-color: #EFEFEF;
   color: #252525;
 }
 
 .blog-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
 }
 
 /* Mobile Styles */
