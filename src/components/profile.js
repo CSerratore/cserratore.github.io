@@ -30,7 +30,7 @@ const Profile = ({ children }) => {
           I help them make the important strategic decisions that enable an agile approach towards intentional goals instead of chaotic results.
         </p>
         <p>
-          I apply my experience in software development for 25 years as a developer, architect, business analyst and team manager,
+          I apply over 25 years of experience in software development as a developer, architect, business analyst and team manager,
           to solve problems.
         </p>
         <p>
