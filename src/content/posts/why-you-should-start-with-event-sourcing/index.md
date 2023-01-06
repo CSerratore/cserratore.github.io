@@ -1,4 +1,5 @@
 ---
+slug: start-with-event-sourcing
 title: Why You Should Start With Event Sourcing
 date: 2022-12-24
 author: Cory Serratore
@@ -7,8 +8,6 @@ imageAlt: A diagram of the design pattern method.
 summary: The digital economy is based on the currency of data. Data is also the most dynamic and volatile aspect of any software system.
 articleURL: https://buttondown.email/CorySerratore/archive/why-you-should-start-with-event-sourcing/
 ---
-
-# Why You Should Start With Event Sourcing
 
 ## Data is Currency
 
@@ -19,7 +18,6 @@ The digital economy is based on the currency of data.
 Value, in the form of data, is created, transformed, and exchanged by users and the products and services they interact with within the digital economy.
 
 Data is also the most dynamic and volatile aspect of any software system.
-
 
 ## Responsiveness to Change
 

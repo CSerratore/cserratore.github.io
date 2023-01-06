@@ -1,0 +1,53 @@
+.section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.article-container {
+  margin-top: 60px;
+  width: 70%;
+  padding: 25px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+
+  background-color: #FFF;
+}
+
+.article-container h1 {
+  font-family: 'Georama', sans-serif;
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: 0;
+ }
+
+.article-container h2, h3, h4 {
+  font-family: 'Georama', sans-serif;
+  font-size: 1em;
+}
+
+
+.article-container ol {
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+
+.article-container ul {
+  padding-left: 50px;
+  padding-bottom: 25px;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  .article-container h1 {
+    font-size: 2em;
+   }
+   .article-container h2 {
+    font-size: .75em;
+  }
+  .article-container h4 {
+    font-size: .75em;
+  }
+}

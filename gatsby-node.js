@@ -1,4 +1,5 @@
 const slugify = require(`@sindresorhus/slugify`)
+const path = require("path")
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions

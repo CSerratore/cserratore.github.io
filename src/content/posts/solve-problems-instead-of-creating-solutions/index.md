@@ -1,4 +1,5 @@
 ---
+slug: solve-problems
 title: Don't Create Solutions, Solve Problems
 date: 2022-12-14
 author: Cory Serratore
@@ -7,8 +8,6 @@ imageAlt: A diagram of the design pattern method.
 summary: A solution, whether it is delivered in the form of a design document or a software system, has no value to your clients and employers if it fails to solve a problem.
 articleURL: https://buttondown.email/CorySerratore/archive/how-to-solve-problems-instead-of-creating/
 ---
-
-# Don't Create Solutions, Solve Problems
 
 I have been a professional software creator for over 25 years.
 

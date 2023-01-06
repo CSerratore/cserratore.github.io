@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && cp CNAME public && gh-pages -d public -b master"
+    "deploy": "gatsby build && cp CNAME public && gh-pages -d public -b master -r https://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@github.com/cserratore/cserratore.github.io.git"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.2.1",
@@ -27,7 +27,8 @@
     "gatsby-transformer-remark": "^6.3.2",
     "gatsby-transformer-sharp": "^5.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"

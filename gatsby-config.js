@@ -16,20 +16,22 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-mdx',
     'gatsby-transformer-sharp',
+    'gatsby-transformer-remark',
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `pages`,
+        name: 'pages',
         path: `${__dirname}/src/pages/`,
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: `posts`,
+        name: 'posts',
         path: `${__dirname}/src/content/posts`,
       },
+      __key: 'posts'
     },
-    `gatsby-transformer-remark`,
+    'gatsby-transformer-remark',
   ],
 }

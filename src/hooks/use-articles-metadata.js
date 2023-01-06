@@ -1,41 +1,41 @@
 import { graphql, useStaticQuery } from "gatsby";
 
 export const useArticlesMetadata = () => {
-  const { allMdx } = useStaticQuery(
+  const { allMarkdownRemark } = useStaticQuery(
     graphql`
-      query ARTICLES_METADATA_QUERY {
-        allMdx (sort: {frontmatter: {date: DESC}}) {
-          nodes {
-            fields {
-              slug
-            }
+    query ARTICLES_METADATA_QUERY {
+      allMarkdownRemark(limit: 1000) {
+        edges {
+          node {
             frontmatter {
+              slug
+              summary
               title
               date(formatString: "MMMM Do, YYYY")
+              imageAlt
               author
               image {
                 childImageSharp {
-                  gatsbyImageData(height: 432, width: 768)
+                  gatsbyImageData(layout: FIXED, width: 380)
                 }
               }
-              summary
-              articleURL
             }
           }
         }
       }
+    }
     `
   );
-  return allMdx.nodes.map((node) => {
+  return allMarkdownRemark.edges.map((edge) => {
     return {
-      title: node.frontmatter.title,
-      date: node.frontmatter.date,
-      author: node.frontmatter.author,
-      image: node.frontmatter.image,
-      summary: node.frontmatter.summary,
-      articleURL: node.frontmatter.articleURL,
-      slug: node.fields.slug,
-    }
+      title: edge.node.frontmatter.title,
+      date: edge.node.frontmatter.date,
+      author: edge.node.frontmatter.author,
+      image: edge.node.frontmatter.image,
+      summary: edge.node.frontmatter.summary,
+      articleURL: edge.node.frontmatter.articleURL,
+      slug: edge.node.frontmatter.slug,
+    };
   })
 
 };
