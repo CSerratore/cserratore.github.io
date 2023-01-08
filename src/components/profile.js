@@ -24,17 +24,14 @@ const Profile = ({ children }) => {
         </p>
         <p>
           I'm the guy they come to when they want to solve their problems effectively and efficiently.
-          No band-aid fixes and workarounds to symptoms, I get to the root of the problem.
-        </p>
-        <p>
-          I help them make the important strategic decisions that enable an agile approach towards intentional goals instead of chaotic results.
+          No band-aid fixes and workarounds. I get to the root of the problem and put systems in place to solve them.
         </p>
         <p>
           I apply over 25 years of experience in software development as a developer, architect, business analyst and team manager,
           to solve problems.
         </p>
         <p>
-          I've developed effective systems to help other software creators create value and earn a reputation as problem solvers.
+          I've developed effective systems to help software creators earn a reputation as irreplaceable problem solvers and value creators rather than commodities.
         </p>
       </div>
       
