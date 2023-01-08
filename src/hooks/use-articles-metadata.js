@@ -16,7 +16,7 @@ export const useArticlesMetadata = () => {
               author
               image {
                 childImageSharp {
-                  gatsbyImageData(layout: FIXED, width: 380)
+                  gatsbyImageData(layout: FIXED, width: 380, height: 207)
                 }
               }
             }
