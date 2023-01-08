@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && cp CNAME public && gh-pages -d public -b master"
+    "deploy": "gatsby build && cp CNAME public && gh-pages -d public -b master -r https://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@github.com/cserratore/cserratore.github.io.git"
   },
   "dependencies": {
     "@mdx-js/mdx": "^2.2.1",
