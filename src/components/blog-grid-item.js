@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import { 
   blogGridItem,
+  thumbnail,
   articleTitle,
   articleExcerpt,
   readMore,
@@ -15,8 +16,9 @@ const BlogGridItem = ({ articleMetadata, children }) => {
   return (
 
     <div className={ blogGridItem }>
-      <GatsbyImage
-        image={ image }/>
+      <div className={ thumbnail }>
+        <GatsbyImage image={ image }/>
+      </div>
       <div className={ articleTitle }>
         <h4>
           { articleMetadata.title }

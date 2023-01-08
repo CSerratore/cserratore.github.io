@@ -32,6 +32,21 @@ module.exports = {
       },
       __key: 'posts'
     },
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        maxWidth: 800,
+        backgroundColor: '#5379a0',
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 800,
+              backgroundColor: '#5379a0',
+            },
+          }
+        ],
+      },
+    },
   ],
 }

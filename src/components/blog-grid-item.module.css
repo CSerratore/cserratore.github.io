@@ -9,6 +9,10 @@
     margin-right: auto;
   }
 
+  .thumbnail {
+    background-color: #5379a0;
+  }
+
   .article-title {
     margin-top: 20px;
   }

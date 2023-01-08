@@ -26,8 +26,8 @@
 .article-container h2, h3, h4 {
   font-family: 'Georama', sans-serif;
   font-size: 1em;
+  padding-bottom: .5em;
 }
-
 
 .article-container ol {
   padding-left: 50px;

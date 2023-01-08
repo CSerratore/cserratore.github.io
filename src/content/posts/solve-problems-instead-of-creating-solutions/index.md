@@ -65,7 +65,7 @@ What I want to call attention to, however, is the *method* this book helped esta
 
 ## The Design Pattern Method
 
-![The Design Pattern Method](/images/design-pattern-method.png)
+![The Design Pattern Method](./design-pattern-method.png)
 
 Here are the generalised steps:
 
