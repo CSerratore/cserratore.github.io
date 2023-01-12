@@ -22,7 +22,7 @@ const Subscribe = ({ children }) => {
           placeholder="your email address"
         />
         <input type="hidden" value="1" name="embed" />
-        <input type="submit" value="Subscribe" />
+        <input type="submit" value="Subscribe $0.00" />
       </form>
 
     </div>
