@@ -70,7 +70,7 @@ A projection is a transformation of data from one representation, such as an eve
 
 A projection may take on many implementation forms, from in-memory to a persistent NoSQL document or a normalized or de-normalized relational persistent model.
 
-A projection may also be updated using methods that are either transactional or eventual consistent with the event store, depending on considerations such as latency tolerances of the commands and queries.
+A projection may also be updated using methods that are either transactionally or eventually consistent with the event store, depending on considerations such as latency tolerances of the commands and queries.
 
 ## The Benefit
 
@@ -95,7 +95,9 @@ Materialized views are loosely coupled projections sourced from the event store,
 
 - Both CQRS and event sourcing are often perceived as more complicated.
 
-  - The perceived complexity is often based on a lack of familiarity compared to traditional entity state object-relational (O/R) persistence.
+  - Do not confuse unfamiliar with complicated.
+    - The perceived complication of event sourcing is often based on a lack of familiarity compared to traditional entity state object-relational (O/R) persistence.
+    - Compare an event sourcing DB schema and application persistence layer, with a traditional O/R schema and application persistence layer. You'll be hard pressed to convince me that event sourcing is the more complicated of the two.
   - Entity state O/R persistence simply moves the complexity to different places, such as in O/R middleware and to the database itself to manage additional transactional isolation and blocking concerns.
   - CQRS and event sourcing patterns improve discipline by enforcing a separation of command and query concerns, avoiding many of the pitfalls that traditional entity state O/R designs fall into that negatively impact responsiveness. This also extends into a separation of OLTP and OLAP concerns.
 
