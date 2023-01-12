@@ -28,10 +28,10 @@ const Profile = ({ children }) => {
         </p>
         <p>
           I apply over 25 years of experience in software development as a developer, architect, business analyst and team manager,
-          to solve problems.
+          to develop effective systems to solve problems.
         </p>
         <p>
-          I've developed effective systems to help software creators earn a reputation as irreplaceable problem solvers and value creators rather than commodities.
+          I help software creators earn a reputation as irreplaceable problem solvers and value creators instead of replaceable commodities.
         </p>
       </div>
       
