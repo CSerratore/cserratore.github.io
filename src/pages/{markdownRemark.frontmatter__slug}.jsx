@@ -1,6 +1,7 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Subscribe from '../components/subscribe'
 import Article from "../components/article"
 
 export default function BlogPostTemplate({
@@ -16,6 +17,8 @@ export default function BlogPostTemplate({
         date={ frontmatter.date }
         html={ html }>
       </Article>
+
+      <Subscribe/>
 
     </Layout>
   )
