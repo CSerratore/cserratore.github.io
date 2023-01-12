@@ -102,8 +102,7 @@ This is the second checkpoint and opportunity for review and feedback. You want 
 The solution is *how* you solve the problem. This is where you apply your expertise to model a solution that
 
 1. Meets the *objectives*
-2. Addresses the *problem*
-3. Complies with the *forces*
+2. Addresses the *problem*3. Complies with the *forces*
 4. Considers the *context*
 
 Consider this a solution checklist. The more clearly you are able to trace your solution decisions back to these checklist items, the more clearly you will be able to understand and communicate the solution, and rationalise it and defend it, if necessary. It will be much easier to sway opinions in your favour when you've laid out your solution in a manner that clearly explains how it addresses each of the requester's concerns.
@@ -190,7 +189,7 @@ References to related practices and patterns provide additional information...
 
 This article defines a method and framework to help bridge the communication gap between the problem space and solution space stakeholders.
 
-It also encourages fosters a practice and discipline for taking a top-down approach to solution development, by focusing on solving a problem instead of forcing a problem to fit a solution.
+It also fosters a practice and discipline for taking a top-down approach to solution development, by focusing on solving a problem instead of forcing a problem to fit a solution.
 
 A problem-solving approach fosters empathy and develops domain knowledge through the perspective of the problem space.
 
