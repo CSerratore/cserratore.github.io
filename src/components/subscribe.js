@@ -19,7 +19,7 @@ const Subscribe = ({ children }) => {
         <input
           type="email"
           name="email"
-          placeholder="you@gmail.com"
+          placeholder="your email address"
         />
         <input type="hidden" value="1" name="embed" />
         <input type="submit" value="Subscribe" />
