@@ -3,6 +3,7 @@ import { useSiteMetadata } from "../hooks/use-site-metadata";
 import { useArticlesMetadata } from "../hooks/use-articles-metadata";
 import Layout from '../components/layout'
 import Header from '../components/header'
+import Subscribe from '../components/subscribe'
 import Section from '../components/section'
 import BlogGrid from '../components/blog-grid'
 import BlogGridItem from "../components/blog-grid-item"
@@ -15,6 +16,8 @@ const IndexPage = ({ data }) => {
     <Layout>
 
       <Header/>
+
+      <Subscribe/>
 
       <Section id="articles">
         <h1>ARTICLES</h1>
@@ -40,6 +43,8 @@ const IndexPage = ({ data }) => {
       </Section>
 
       <Profile/>
+
+      <Subscribe/>
 
     </Layout>
   )
