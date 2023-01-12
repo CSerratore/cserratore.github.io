@@ -41,7 +41,7 @@
 <p>An event sourcing pattern is most often applied in combination with CQRS. The event store represents the state-changing results of entity commands. <em>Projections</em> of the event store data are typically used to support queries of domain data.</p>
 <p>A projection is a transformation of data from one representation, such as an event store, to a representation that is optimal for the responsiveness of the query.</p>
 <p>A projection may take on many implementation forms, from in-memory to a persistent NoSQL document or a normalized or de-normalized relational persistent model.</p>
-<p>A projection may also be updated using methods that are either transactional or eventual consistent with the event store, depending on considerations such as latency tolerances of the commands and queries.</p>
+<p>A projection may also be updated using methods that are either transactionally or eventually consistent with the event store, depending on considerations such as latency tolerances of the commands and queries.</p>
 <h2>The Benefit</h2>
 <p>An event sourced persistence model is very flexible and responsive to change, allowing entity command state changes to be persisted using a simple and general purpose model, while deferring query model decisions until they are known and required.</p>
 <p>Changes to the command model, whether it's the introduction of new events or changes to event definitions, is easily accommodated via simple event type and version meta data. Serialization and deserialization is the application's concern, so changes do not impact the structure of the persistence model.</p>
@@ -66,7 +66,12 @@
 <li>
 <p>Both CQRS and event sourcing are often perceived as more complicated.</p>
 <ul>
-<li>The perceived complexity is often based on a lack of familiarity compared to traditional entity state object-relational (O/R) persistence.</li>
+<li>Do not confuse unfamiliar with complicated.
+<ul>
+<li>The perceived complication of event sourcing is often based on a lack of familiarity compared to traditional entity state object-relational (O/R) persistence.</li>
+<li>Compare an event sourcing DB schema and application persistence layer, with a traditional O/R schema and application persistence layer. You'll be hard pressed to convince me that event sourcing is the more complicated of the two.</li>
+</ul>
+</li>
 <li>Entity state O/R persistence simply moves the complexity to different places, such as in O/R middleware and to the database itself to manage additional transactional isolation and blocking concerns.</li>
 <li>CQRS and event sourcing patterns improve discipline by enforcing a separation of command and query concerns, avoiding many of the pitfalls that traditional entity state O/R designs fall into that negatively impact responsiveness. This also extends into a separation of OLTP and OLAP concerns.</li>
 </ul>
@@ -87,4 +92,4 @@
           >
             window.___chunkMapping="{\"app\":[\"/app-127f0047523529b388ce.js\"],\"component---src-pages-404-js\":[\"/component---src-pages-404-js-c6b521550f3a330e3b83.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-baf4b84f85791e2c3f33.js\"],\"component---src-pages-markdown-remark-frontmatter-slug-jsx\":[\"/component---src-pages-markdown-remark-frontmatter-slug-jsx-d0b699401aa9c432ef4a.js\"]}";
           </script>
-        <script>window.___webpackCompilationHash="6c125520c181ff6721e2";</script><script src="/webpack-runtime-0c19d22e8f0455361fa6.js" async></script><script src="/framework-4c83fa99e4da88cbeb4c.js" async></script><script src="/app-127f0047523529b388ce.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
+        <script>window.___webpackCompilationHash="76c26c34d331186aca47";</script><script src="/webpack-runtime-0c19d22e8f0455361fa6.js" async></script><script src="/framework-4c83fa99e4da88cbeb4c.js" async></script><script src="/app-127f0047523529b388ce.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
