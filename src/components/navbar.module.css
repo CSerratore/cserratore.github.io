@@ -12,7 +12,10 @@
   text-align: center;
   overflow: hidden;
   z-index: 1;
+}
 
+.navbar-margin {
+  margin-top: 60px;
 }
 
 nav ul li {

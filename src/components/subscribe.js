@@ -3,10 +3,15 @@ import {
   subscribe,
 } from './subscribe.module.css'
 
-const Subscribe = ({ children }) => {
+const Subscribe = ({ context }) => {
   return (
 
     <div className={ subscribe }>
+
+      <p>
+        Take the red pill and start reading <strong>The Solution Space Newsletter</strong> and learn how to gain a reputation 
+        as an <strong>irreplaceable problem solver</strong>.
+      </p>
 
       <form
         action="
@@ -22,7 +27,7 @@ const Subscribe = ({ children }) => {
           placeholder="your email address"
         />
         <input type="hidden" value="1" name="embed" />
-        <input type="submit" value="Subscribe $0.00" />
+        <input type="submit" value="Read For Free" />
       </form>
 
     </div>
