@@ -25,7 +25,12 @@
     color: #C8A537;
     font-weight: 700;
     font-style: italic;
-    text-decoration: underline;
+    text-decoration: none;
+  }
+
+  .read-more:before {
+    content: "👉";
+    margin: 0 .3em 0 0;
   }
 
   .meta-data {
@@ -39,7 +44,7 @@
 
   .meta-data span+span::before {
     content: "•";
-    margin: 0 .3em 0 .1em;
+    margin: 0 .3em 0 .2em;
   }
 
   .meta-data span::before {
