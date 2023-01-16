@@ -102,7 +102,8 @@ This is the second checkpoint and opportunity for review and feedback. You want 
 The solution is *how* you solve the problem. This is where you apply your expertise to model a solution that
 
 1. Meets the *objectives*
-2. Addresses the *problem*3. Complies with the *forces*
+2. Addresses the *problem*
+3. Complies with the *forces*
 4. Considers the *context*
 
 Consider this a solution checklist. The more clearly you are able to trace your solution decisions back to these checklist items, the more clearly you will be able to understand and communicate the solution, and rationalise it and defend it, if necessary. It will be much easier to sway opinions in your favour when you've laid out your solution in a manner that clearly explains how it addresses each of the requester's concerns.
