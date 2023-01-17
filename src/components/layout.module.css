@@ -75,16 +75,20 @@ p {
   margin-bottom: 1rem;
 }
 
+a {
+  font-size: 1rem;
+}
+
 /* font-size: 14px; min */
-/* font-size: 24px; max */
+/* font-size: 20px; max */
 @media (min-width: 400px) and (max-width: 800px){
   :root { 
-    font-size: calc( 14px + (24 - 14) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc( 14px + (20 - 14) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 
 @media (min-width: 800px){
   :root { 
-    font-size: 24px;
+    font-size: 20px;
   }
 }
