@@ -4,7 +4,7 @@
     justify-content:flex-start;
     text-align: left;
     width: 380px;
-    height: 537px;
+    height: 25rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -14,11 +14,11 @@
   }
 
   .article-title {
-    margin-top: 20px;
+    margin-top: 1rem;
   }
 
   .article-excerpt {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
 
   .read-more {
@@ -30,12 +30,12 @@
 
   .read-more:before {
     content: "👉";
-    margin: 0 .3em 0 0;
+    margin: 0 .3rem 0 0;
   }
 
   .meta-data {
     margin-top: auto;
-    font-size: .7em;
+    font-size: .8rem;
     font-style: italic;
     background-color: #EFEFEF;
     color:#252525;
@@ -44,7 +44,7 @@
 
   .meta-data span+span::before {
     content: "•";
-    margin: 0 .3em 0 .2em;
+    margin: 0 .3rem 0 .2rem;
   }
 
   .meta-data span::before {
