@@ -23,7 +23,6 @@ input {
   padding: .5em;
   background-color: #000;
   color: #EFEFEF;
-  font-size: .8em;
   border: none;
   border-bottom: 2px solid;
 }
@@ -31,7 +30,7 @@ input {
 input[type=button], input[type=submit], input[type=reset] {
   background-color: #C8A537;
   border: none;
-  padding: 16px 32px;
+  padding: .75rem .75rem;
   text-decoration: none;
   margin: .5em .5em;
   cursor: pointer;
