@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 16px; /* min */
+}
+
 html, body {
   height: 100%;
 }
@@ -21,7 +25,6 @@ body {
   width: 100%;
   background-color: #000;
   font-family: 'Raleway', sans-serif;
-  font-size: 24px;
 }
 
 main {
@@ -42,42 +45,45 @@ header {
   color: #EFEFEF;
 }
 
-.page h1 {
+h1 {
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 300;
   letter-spacing: .25em;
  }
 
-.page h2, h3, h4 {
+h2, h3, h4 {
   font-family: 'Georama', sans-serif;
 }
 
-.page h2 {
-  font-size: 2.5em;
+h2 {
+  font-size: 2rem;
   font-weight: 900;
 }
 
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  .page h1 {
-    font-size: .75em;
-   }
-  .page h2 {
-    font-size: 1em;
-  }
-  .page h4 {
-    font-size: .75em;
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* font-size: 16px; min */
+/* font-size: 24px; max */
+@media (min-width: 400px) and (max-width: 800px){
+  :root { 
+    font-size: calc( 16px + (24 - 16) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-
-
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-
+@media (min-width: 800px){
+  :root { 
+    font-size: 24px;
+  }
 }

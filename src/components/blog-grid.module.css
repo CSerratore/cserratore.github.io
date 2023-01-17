@@ -15,26 +15,3 @@
   column-gap: 10px;
   row-gap: 10px;
 }
-
-/* Mobile Styles */
-@media only screen and (max-width: 400px) {
-  .blog-grid {
-  }
-
-}
-
-/* Tablet Styles */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  .blog-grid {
-  }
-
-}
-
-/* Desktop Styles */
-@media only screen and (min-width: 961px) {
-  .blog-grid {
-  }
-}
-
-  
-  
