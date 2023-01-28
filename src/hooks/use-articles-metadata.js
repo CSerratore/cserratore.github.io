@@ -4,14 +4,13 @@ export const useArticlesMetadata = () => {
   const { allMarkdownRemark } = useStaticQuery(
     graphql`
     query ARTICLES_METADATA_QUERY {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(limit: 1000, sort: {frontmatter: {date: DESC}}) {
         edges {
           node {
             frontmatter {
               slug
               summary
               title
-              date(formatString: "MMMM Do, YYYY")
               imageAlt
               author
               image {
@@ -19,6 +18,7 @@ export const useArticlesMetadata = () => {
                   gatsbyImageData(layout: FIXED, width: 380, height: 207)
                 }
               }
+              date(formatString: "MMMM Do, YYYY")
             }
           }
         }
