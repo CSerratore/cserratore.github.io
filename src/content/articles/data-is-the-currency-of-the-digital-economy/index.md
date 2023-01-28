@@ -112,7 +112,7 @@ The four core principles of data mesh are:
 
 ## The Payback
 
-An organization that embraces data mesh principles will have a distinctive and unfair advantage over their competitors that do not.
+An organization that embraces data mesh principles will have a distinct advantage over their competitors.
 
 Silos that previously impeded integration and collaboration between product teams fall.
 
@@ -126,7 +126,7 @@ Value potential that was previously buried under product teams' mattresses is no
 
 ## Risks and Mitigation
 
-Of course, nothing is free. Free markets thrive because they rely on a strong foundation of principles and policies. Consideration for all four data mesh principles are important to the success of a data mesh strategy.
+Free markets thrive because they rely on a strong foundation of principles and policies. Consideration for all four data mesh principles are important to the success of a data mesh strategy.
 
 Without domain-oriented data ownership and architecture, you risk the inefficient dependency and bureaucracy of a centralized business intelligence team. You also lose accountability for data quality and change management, impacting the quality and resilience of downstream consumers, and the value they are able to deliver.
 
