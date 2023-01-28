@@ -159,7 +159,7 @@ In other words...
 >Set your data free. It it has value, that value will return to you in multiples.
 >—Cory Serratore
 
-If you like this kind of thing, consider following me on Twitter, where I provide bit-sized tidbits of my thoughts and experiences on topics I am passionate (or just curious) about, such as:
+If you like this kind of thing, consider following me on Twitter, where I provide bite-size thoughts and experiences on topics I am passionate (or just curious) about, such as:
 
 - the digital creator economy
 - building scalable software systems, teams, and organizations
