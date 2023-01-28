@@ -1,0 +1,29 @@
+# Context
+## Attention
+Open a curiosity loop with an interesting fact, story, or statement.
+
+## Goal
+
+### Objectives
+
+# Problem
+## Lead
+The big problem and agitating that problem. Paint a picture of that perspective.
+
+## Forces
+
+# Solution
+## Body
+How to overcome the problem and the benefits, or “why,” associated with those benefits.
+
+# Resulting Context
+
+## Risks and Mitigation
+
+## Related Practices, Patterns, Technologies
+
+## Conclusion
+Wrap it up and leave with value. Recap what they learned.
+
+# CTA
+Tell them what to do next. Be clear, concise, and authentic.
