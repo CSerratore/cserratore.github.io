@@ -145,8 +145,6 @@ The data mesh principles do not subscribe any specific practices, patterns or te
 - Domain Driven Design
 - Apache Kafka
 
-Wrap it up and leave with value. Recap what they learned.
-
 The next time you are working on a value proposition for a product or feature, give equal consideration to the data as well as the behavior.
 
 Remember, it's the data that results from a software system's behavior that solves a problem, and this data has the potential to enable other downstream systems to solve their problems as well.
