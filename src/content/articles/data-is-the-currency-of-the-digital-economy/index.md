@@ -5,7 +5,7 @@ date: 2023-01-28
 author: Cory Serratore
 image: ./thumbnail.png
 imageAlt: A diagram of the design pattern method.
-summary: A solution, whether it is delivered in the form of a design document or a software system, has no value to your clients and employers if it fails to solve a problem.
+summary: An objective of every software system is to generate value, in the form of data representing the solution to a problem.
 ---
 
 Software systems input data from the physical world (users and devices) and from other software systems, where it is transformed (filtered, edited, enriched), and output as new data to the physical world (devices and users) and to other software systems.
