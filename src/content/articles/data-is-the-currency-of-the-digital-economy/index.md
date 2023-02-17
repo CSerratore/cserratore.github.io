@@ -161,4 +161,3 @@ If you like this kind of thing, consider following me on Twitter, where I provid
 
 - the digital creator economy
 - building scalable software systems, teams, and organizations
-- life lessons and inspirations from The Beatles
