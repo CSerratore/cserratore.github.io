@@ -1,5 +1,6 @@
 import * as React from 'react'
-
+import { 
+} from './header.module.css'
 const Header = ({ children }) => {
   return (
 
@@ -7,8 +8,8 @@ const Header = ({ children }) => {
 
       <header>
         <h1>CORY SERRATORE</h1>
-        <h2>Recession Proof Your Career</h2>
-        <h3>Invest in Yourself ➞ Grow ➞ Prosper</h3>
+        <h2>LEARN • CREATE • TEACH</h2>
+        <h3>GROWTH STRATEGIES FOR SOFTWARE CREATORS</h3>
       </header>
 
     </div>
