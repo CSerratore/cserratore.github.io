@@ -3,10 +3,16 @@
     flex-direction: column;
     justify-content:flex-start;
     text-align: left;
-    width: 380px;
+    width: 400px;
     height: 25rem;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .blog-grid-item:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
   }
 
   .thumbnail {
@@ -26,11 +32,6 @@
     font-weight: 700;
     font-style: italic;
     text-decoration: none;
-  }
-
-  .read-more:before {
-    content: "👉";
-    margin: 0 .3rem 0 0;
   }
 
   .meta-data {
