@@ -11,6 +11,8 @@
   padding-top: 1em;
   padding-bottom: 1em;
   text-align: center;
+  background-color: #EFEFEF;
+  color: #000;
 }
 
 b, strong {
@@ -29,6 +31,7 @@ input {
 
 input[type=button], input[type=submit], input[type=reset] {
   background-color: #C8A537;
+  color: #EFEFEF;
   border: none;
   padding: .75rem .75rem;
   text-decoration: none;
