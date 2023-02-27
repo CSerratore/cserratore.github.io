@@ -10,7 +10,7 @@ const Article = ({ title, date, html }) => {
       <article>
 
         <h1>{ title }</h1>
-        <h2>{ date }</h2>
+        <h4>{ date }</h4>
         <div
           dangerouslySetInnerHTML={{ __html: html }}
         />

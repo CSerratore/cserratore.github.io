@@ -24,8 +24,8 @@ body {
   height: 100%;
   width: 100%;
   background-color: #EFEFEF;
-  color: #000;
-  font-family: 'Raleway', sans-serif;
+  color: #393d47;
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -43,23 +43,23 @@ header {
   padding-bottom: 1em;
   background-color: #EFEFEF;
   text-align: center;
-  color: #000;
+  color: #393d47;
+}
+
+h1 h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat Alternatives', sans-serif;
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: .25rem;
  }
 
-h2, h3, h4 {
-  font-family: 'Georama', sans-serif;
-}
-
 h2 {
-  font-size: 2rem;
-  font-weight: 900;
+  font-size: 1.75rem;
 }
 
 h3 {
@@ -67,7 +67,8 @@ h3 {
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 p {
@@ -85,15 +86,15 @@ li {
 }
 
 /* font-size: 16px; min */
-/* font-size: 20px; max */
+/* font-size: 18px; max */
 @media (min-width: 400px) and (max-width: 800px){
   :root { 
-    font-size: calc( 16px + (20 - 16) * ( (100vw - 400px) / ( 800 - 400) ));
+    font-size: calc( 16px + (18 - 16) * ( (100vw - 400px) / ( 800 - 400) ));
   }
 }
 
 @media (min-width: 800px){
   :root { 
-    font-size: 20px;
+    font-size: 18px;
   }
 }

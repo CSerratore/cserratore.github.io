@@ -9,25 +9,31 @@
   background-color: #EFEFEF;
 }
 
-.article-container h1 {
-  font-family: 'Georama', sans-serif;
-  font-size: 2rem;
+article h1, article h2, article h3, article h4 {
+  font-family: 'Poppins', sans-serif;
   font-weight: 900;
-  letter-spacing: 0;
- }
-
-.article-container h2, h3, h4 {
-  font-size: 1rem;
-  font-weight: 300;
   padding-bottom: .5em;
 }
 
-.article-container ol {
+article h1 {
+  font-size: 2rem;
+  letter-spacing: 0;
+ }
+
+article h2 {
+  font-size: 1.5rem;
+ }
+
+article h3 {
+  font-size: 1.25rem;
+}
+
+article ol {
   padding-left: .5em;
   padding-bottom: 1em;
 }
 
-.article-container ul {
+article ul {
   padding-left: .5em;
   padding-bottom: 1em;
 }
