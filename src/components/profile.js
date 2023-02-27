@@ -27,7 +27,7 @@ const Profile = ({ children }) => {
           that are operationally and organizationally responsive.
         </p>
         <p>
-          I also write about my interests in the one-person online business model and self development.
+          I also write about my interests in the one-person online business model and mental and physical self-development.
         </p>
         <p>
           In the span of my career, I've been a software developer, product and solution architect, business analyst, and development manager.
@@ -35,9 +35,9 @@ const Profile = ({ children }) => {
           creators accelerate their careers, make more money, and attract more opportunities in life. 
         </p>
         <p>
-          I balance growth across all three pillars of software, business, and physical and mental self-development.
-          This is the key to building effective systems that lead to working smarter, not harder that will ultimately
-          pave a path towards personal freedom, autonomy, sovereignty, and self-fulfillment.
+          I balance growth across all three pillars of software, business, and self-development.
+          This is the key to building effective systems that lead to working smarter, not harder and a balanced life that will ultimately
+          pave a path towards personal freedom and self-fulfillment.
         </p>
         <p>
           It is my mission in life to raise the standard of software development by helping software creators through about
