@@ -1,7 +1,8 @@
 header h2 {
-    font-size: 4rem;
+    font-size: 7rem;
     font-weight: 900;
     font-family: 'Poppins', sans-serif;
+    line-height: 100%;
 }
 
 header h3 {

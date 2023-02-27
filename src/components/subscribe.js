@@ -9,7 +9,8 @@ const Subscribe = ({ context }) => {
     <div className={ subscribe }>
 
       <p>
-        Take the red pill and start reading <strong>The Solution Space Newsletter</strong> and learn how to gain a reputation 
+        Are you a junior or seasoned software developer looking to move beyond the ranks of commodity coders?
+        Start reading <strong>The Solution Space Newsletter</strong> and learn how to build a reputation 
         as an <strong>irreplaceable problem solver</strong>.
       </p>
 

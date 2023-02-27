@@ -20,18 +20,28 @@ const Profile = ({ children }) => {
       <div className={ profile }>
         <h3>Hi, I'm Cory.</h3>
         <p>
-          <strong>I'm a software creator and advisor.</strong>
+          <strong>I'm a software creator, consultant, and career coach.</strong>
         </p>
         <p>
-          I'm the guy they come to when they want to solve their problems effectively and efficiently.
-          No band-aid fixes and workarounds. I get to the root of the problem and put systems in place to solve them.
+          My passion is software development, specifically in practices and patterns used to build systems 
+          that are operationally and organizationally responsive.
         </p>
         <p>
-          I apply over 25 years of experience in software development as a developer, architect, business analyst and team manager,
-          to develop effective systems to solve problems.
+          I also write about my interests in the one-person online business model and self development.
         </p>
         <p>
-          I help software creators earn a reputation as irreplaceable problem solvers and value creators instead of replaceable commodities.
+          In the span of my career, I've been a software developer, product and solution architect, business analyst, and development manager.
+          I apply the intersection of my skills, experience, and interests—using a learn/build/teach system—to help software
+          creators accelerate their careers, make more money, and attract more opportunities in life. 
+        </p>
+        <p>
+          I balance growth across all three pillars of software, business, and physical and mental self-development.
+          This is the key to building effective systems that lead to working smarter, not harder that will ultimately
+          pave a path towards personal freedom, autonomy, sovereignty, and self-fulfillment.
+        </p>
+        <p>
+          It is my mission in life to raise the standard of software development by helping software creators through about
+          transformational journey from commodity coders to irreplaceable problem solvers.
         </p>
       </div>
       

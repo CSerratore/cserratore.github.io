@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => {
         <h1>ABOUT ME</h1>
         <h2>Who Is Cory Serratore?</h2>
         <p>
-          A software creator with a passion for personal and professional development.
+          A software creator with <strong>more than 25 years experience</strong> in software development.
         </p>
       </Section>
 
