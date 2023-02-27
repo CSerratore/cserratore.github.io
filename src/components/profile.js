@@ -40,7 +40,7 @@ const Profile = ({ children }) => {
           pave a path towards personal freedom and self-fulfillment.
         </p>
         <p>
-          It is my mission in life to raise the standard of software development by helping software creators through about
+          It is my mission in life to raise the standard of software development by helping software creators through a
           transformational journey from commodity coders to irreplaceable problem solvers.
         </p>
       </div>
