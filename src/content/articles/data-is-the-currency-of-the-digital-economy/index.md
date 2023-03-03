@@ -34,7 +34,7 @@ Based on a study by the Standish Group, only 11% of new application development 
 
 Statistics indicate the stakes are high and there is little margin for error.
 
-Consider the forces behind these each bet:
+Consider the forces behind each bet:
 
 - Software systems require capital investment to build.
 - Software systems incur ongoing operational costs to remain online.
@@ -54,7 +54,7 @@ However, there is the fundamental question of how software organizations tend to
 
 In many cases, they are failing to deliver their full value potential - by a large margin, possibly orders of magnitude.
 
-A lot of this value potential, in the form of data, is left on the table or, more apt, stuffed under the mattress and forgotten about.
+A lot of this value potential, in the form of data, is left on the table or stuffed under the mattress and forgotten about.
 
 Our economy, in a grossly simplified form...
 
