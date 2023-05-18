@@ -1,5 +1,4 @@
 import * as React from "react"
-import { useSiteMetadata } from "../hooks/use-site-metadata";
 import { useArticlesMetadata } from "../hooks/use-articles-metadata";
 import Layout from '../components/layout'
 import Header from '../components/header'
@@ -10,7 +9,6 @@ import BlogGridItem from "../components/blog-grid-item"
 import Profile from '../components/profile'
 
 const IndexPage = ({ data }) => {
-  const { title, description, url } = useSiteMetadata();
   const articlesMetadata = useArticlesMetadata();
   return (
     <Layout>
