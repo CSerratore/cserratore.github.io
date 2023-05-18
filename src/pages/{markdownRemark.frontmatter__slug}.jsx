@@ -43,7 +43,7 @@ export const Head = ({data}) => (
   <>
     <meta charset="uft-8"/>
     <meta name='viewport'
-        content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        content='width=device-width, initial-scale=1.0' />
 
     <SEO title={data.markdownRemark.frontmatter.title} description={data.markdownRemark.frontmatter.description}/>
 

@@ -1,11 +1,9 @@
 import * as React from "react"
 import { SEO } from "../components/seo"
-import { useSiteMetadata } from "../hooks/use-site-metadata";
 import Layout from '../components/layout'
 import Subscribe from '../components/subscribe'
 
 const IndexPage = ({ data }) => {
-  const { title, description, url } = useSiteMetadata();
   return (
     <Layout>
 
@@ -21,7 +19,7 @@ export const Head = ({data}) => (
   <>
     <meta charset="uft-8"/>
     <meta name='viewport'
-        content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        content='width=device-width, initial-scale=1.0' />
 
     <SEO title="Subscribe"/>
 
