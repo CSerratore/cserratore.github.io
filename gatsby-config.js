@@ -10,13 +10,17 @@ const siteMetadata = {
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  siteMetadata,
+  siteMetadata: {
+    title: 'Cory Serratore',
+    siteUrl: 'https://coryserratore.com',
+  },
   plugins: [
     'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-plugin-mdx',
     'gatsby-transformer-sharp',
     'gatsby-transformer-remark',
+    'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
