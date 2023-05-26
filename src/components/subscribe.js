@@ -9,9 +9,10 @@ const Subscribe = ({ context }) => {
     <div className={ subscribe }>
 
       <p>
-        Are you a junior or seasoned software developer looking to move beyond the ranks of commodity coders?
+        Are you a software developer looking to move beyond the ranks of commodity coders?
         Start reading <strong>The Solution Space Newsletter</strong> and learn how to build a reputation 
-        as an <strong>irreplaceable problem solver</strong>.
+        as an <strong>irreplaceable problem solver</strong> while gaining financial, time, and location independence
+        as a <strong>Freedom Driven Developer</strong>.
       </p>
 
       <form
