@@ -8,8 +8,9 @@ const Header = ({ children }) => {
 
       <header>
         <h1>CORY SERRATORE</h1>
-        <h2>FREEDOM</h2>
-        <h3>DRIVEN DEVELOPMENT</h3>
+        <h3>the</h3>
+        <h2>DOMAIN</h2>
+        <h3>DRIVEN DEVELOPER</h3>
       </header>
 
     </div>
