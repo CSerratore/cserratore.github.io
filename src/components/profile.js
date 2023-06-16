@@ -27,9 +27,6 @@ const Profile = ({ children }) => {
           that are operationally and organizationally responsive.
         </p>
         <p>
-          I also write about my interests in the one-person online business model and mental and physical self-development.
-        </p>
-        <p>
           In the span of my career, I've been a software developer, product and solution architect, business analyst, and development manager.
           I apply the intersection of my skills, experience, and interests—using a learn/build/teach system—to help software
           creators accelerate their careers, make more money, and attract more opportunities in life. 
