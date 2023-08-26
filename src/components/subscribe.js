@@ -10,7 +10,7 @@ const Subscribe = ({ context }) => {
 
       <p>
         Are you a software developer looking to move beyond the ranks of commodity coders?
-        Start reading <strong>The Solution Space Newsletter</strong> and learn how to build a reputation 
+        Subscribe to <strong>The Solution Space</strong> and learn how to build a reputation 
         as an <strong>irreplaceable problem solver</strong>.
       </p>
 
