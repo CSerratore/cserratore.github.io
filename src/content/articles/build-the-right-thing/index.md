@@ -1,14 +1,12 @@
 ---
 slug: build-the-right-thing
 title: Build The Right Thing
-date: 2023-08-26
+date: 2023-07-26
 author: Cory Serratore
 image: ./effectiveness-efficiency-matrix.webp
 imageAlt: The Eisenhardt matrix
 summary: Strategy. Tactics. What's the difference between them? Is one more important than the other?
 ---
-
-# Build The Right Thing
 
 ## Feeding the Sharks
 
