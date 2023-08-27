@@ -36,11 +36,11 @@ Beaten by competitors who seems to operate at another level.
 
 The loss stings.
 
-Having your defeat handed to you with so little effort on their is what hurts the most.
+Having your defeat handed to you with so little effort on their part is what hurts the most.
 
 How does this happen?
 
-The same way it did for the tourists in the story above. They faced off against opponents who were superior in both strategy and tactics. 
+The same way it did for the tourists in the story above. They faced off against opponents who were superior in both strategy and tactics.
 
 The odds were not only stacked against them. They were _multiplied_ several times over.
 
@@ -62,19 +62,19 @@ But the features keep coming in. The requirements seem to be all over the map, f
 
 There are dark corners of your software that nobody feels confident in changing. The tech backlog is daunting.
 
-You're a CTO. You oversee the technology strategy of your organisation. You drive innovation. You manage technical teams. You align technology initiatives with the company's vision and goals.
+You're a CTO. You oversee the technology strategy of your organization. You drive innovation. You manage technical teams. You align technology initiatives with the company's vision and goals.
 
-But there in't a clear alignment between business objectives and technology initiatives. To make matters worse, shiny object syndrome pervades the industry. Every six months, it seems there's another cycle towards one trend to another.
+But there in't a clear alignment between business objectives and technology initiatives. To make matters worse, shiny object syndrome pervades the industry. Every six months, it seems there's another squirrel to chase.
 
 You're a business owner and creator. You're struggling to define your brand. Niche down, some say. Others tell you to generalize and that "you are the brand". You struggle to convey your value proposition and the focus of your content.
 
 There's so much conflicting advice:
 
-"Just put something out there and see what sticks, and double down on that.".
+"Just put something out there and see what sticks, and double down on that."
 
 "Find a problem, solve a problem."
 
-Talk of pillars, values, mastery... it's all so confusing. 
+Talk of pillars, values, mastery... it's all so confusing.
 
 But you keep posting content because consistency matters more than anything.
 
@@ -82,7 +82,7 @@ Until one day you stop, because you're burned out and aren't seeing progress.
 
 Meanwhile, creators all around you are posting 0-1k, 5k, 10k follower growth. They're banking three, four, five figures in revenue per month.
 
-And every other business owner and creator seems to be ng just the right problem to solve. Their customers are eating it up. They're killing it.
+And every other business owner and creator seems to be finding just the right problem to solve. Their customers are eating it up. They're killing it.
 
 ## It's Not You, It's You
 
@@ -90,11 +90,11 @@ And every other business owner and creator seems to be ng just the right problem
 
 Listen. It's not you.
 
-Well, it is, but you may very well be doing everything right, if not better, than everyone else.
+Well, it is, but you may very well be executing on everything right, if not better, than everyone else.
 
-But you're not doing the right things.
+But you're not doing the right things. You're relying too much on tactics.
 
-You're relying too much on tactics, but it's your strategy - or lack of one - that is failing you.
+But it's your strategy - or lack of one - that is failing you.
 
 ## Strategy vs. Tactics
 
@@ -124,11 +124,11 @@ I have an opinion, and another story to share.
 
 ## Being a Dope on the Ropes
 
-The _Rumble in the Jungle_ is "arguably the greatest sporting event of the 20th century". 
+The _Rumble in the Jungle_ is arguably the greatest sporting event of the 20th century.
 
-The setting was Zaire, Africa in 1974. It featured Muhammad Ali against undefeated and undisputed heavyweight champion George Foreman. 
+The setting was Zaire, Africa in 1974. It featured Muhammad Ali against undefeated and undisputed heavyweight champion George Foreman.
 
-The 32 year old Ali was coming in as a well-worn 4-1 underdog. His opponent was the younger heavy-hitting Foreman. Formane was renown for his punching power, size, and sheer physical dominance.
+The 32 year old Ali was coming in as a well-worn 4-1 underdog. He had spent the past 4 years climbing back into contention after his controversial exile in 1966 for refusing to enlist in the U.S. war in Vietnam. His opponent was the younger heavy-hitting Foreman. Foreman was renown for his punching power, size, and sheer physical dominance.
 
 Both fighters came into the match with a different game plan.
 Foreman had been training to cut off the ring. This would negate Ali's speed advantage and force him into a battle of punching power. A winning plan, as predicted by most who believed George would come out on top.
@@ -162,7 +162,7 @@ Ali had stunned his opponent on occasion with combinations. Still Foreman contin
 By the eight round, Foreman's fatigue began to show. Both his attacking and defensive ability diminished.
 
 Spotting the opportunity Ali was waiting for, he wasted no time in taking advantage.
-Ali, was once again pinned on the ropes. But Ali had plenty of attack power still in the tank. Ali pivoted and countered with a combination of hard right and left hooks that brought Foreman down to the canvas in a stunning victory.
+Ali was once again pinned on the ropes, but had plenty of attack power still in the tank. Ali pivoted and countered with a combination of hard right and left hooks that brought Foreman down to the canvas in a stunning victory.
 
 George Foreman entered the match as the clear favourite. He had the tactical advantage and a predictable game plan.
 
@@ -178,7 +178,7 @@ Even those that aren't outmatched in tactics still fail to apply them effectivel
 
 Building the right thing in the right way by combining effective strategy with efficient tactics is a recipe for success.
 
-Here's what may surprise many of you.
+Here's what many fail to recognize:
 
 > The more efficient you are at doing the wrong thing, the wronger you become.
 >
@@ -216,4 +216,4 @@ These strategic design practices and patterns will be the subject of future inst
 
 If you've made it this far, thank you so much for your attention. I appreciate you.
 
-If you enjoyed this content, you will also enjoy following my Twitter content [@CorysDomain ](https://twitter.com/CorysDomain).
+If you enjoyed this content, you will also enjoy following my Twitter content at [@CorysDomain ](https://twitter.com/CorysDomain).
