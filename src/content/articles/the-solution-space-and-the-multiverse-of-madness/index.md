@@ -138,12 +138,12 @@ Here's another important fact to be aware of:
  _not all domains are equal_. Some are larger in scope and more complex than others.
 
 Many domains are sufficiently large and complex that they defy the capacity of any individual or team to comprehend and model. We call this the _cognitive load_ of a domain.
- 
+
 Figuratively speaking, your bodies will crumble as your minds collapse into madness.
 
 But now you have awareness - the first level of weapons to tackle the problem space.
 
-In the next instalment, I'll share additional weapons and the knowledge and strength to wield them.
+In future installments, I'll share additional weapons and the knowledge and strength to wield them.
 
 I'll share practices and patterns that will give you an edge when dealing with even the largest and most complex problem and solution domain.
 
